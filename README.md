@@ -35,4 +35,5 @@ latitude,longitude,name,description
 
 ## Caveats
 
-This does not handle anything other than `Points` right now.
+* This does not handle anything other than `Points` right now.
+* All parsing errors are treated as existential and cause `kmltocsv` to stop processing.
