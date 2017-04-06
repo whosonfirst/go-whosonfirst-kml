@@ -16,7 +16,9 @@ All of this package's dependencies are bundled with the code in the `vendor` dir
 
 ### kmltocsv
 
-Takes one or more KML files as inputs and outputs a CSV document with the following headers: `latitude,longitude,name,description`. For example:
+_There are many KML to CSV tools. This one is ours._
+
+Takes one or more KML files as inputs and outputs a CSV document (to `STDOUT`) with the following headers: `latitude,longitude,name,description`. For example:
 
 ```
 ./bin/kmltocsv ~/Downloads/icecream.kml
